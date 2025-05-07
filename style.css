@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 375px;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.page {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  align-content: flex-start;
+  height: 100vh;
+}
+
+.accounts {
+  border-radius: 5px;
+  width: 30%;
+  border: 2px rgb(255, 159, 204);
+  box-shadow: 0 0 35px rgb(255, 27, 160);
+}
+
+.account {
+  width: 50%;
+}
+
+img {
+  height: 150px;
+  width: 170px;
+  border-radius: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  border: 2px solid;
+}
+
+h1 {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 400;
+  font-style: normal;
+}
