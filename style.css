@@ -52,8 +52,7 @@ form {
   width: 50%;
   border: 2px solid;
   padding: 2%;
-  background-image: url(https://i.pinimg.com/originals/e8/e5/87/e8e587f4c6e83a27fd83610ccfcffb5c.gif);
-  opacity: 0.5; /* Makes the whole element (including text) 50% transparent */
+  background-color: rgba(255, 255, 255, 0.658);
 }
 
 h1 {
